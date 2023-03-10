@@ -1,0 +1,23 @@
+.about-sec1 {
+  transform: translateY(-24%);
+
+  .card-image {
+    height: 227px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .card-body {
+    color: $color6;
+
+    h1 {
+      @include font(18px, 600);
+    }
+    p {
+      @include font(14px, 400);
+    }
+  }
+}

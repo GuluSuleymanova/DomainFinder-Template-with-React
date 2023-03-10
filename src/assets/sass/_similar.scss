@@ -1,0 +1,35 @@
+.similar {
+  .ant-card-head-wrapper {
+    // flex-direction: column !important;
+    // align-items: start !important;
+    display: block !important;
+
+    .ant-card-extra {
+      margin: 0;
+
+      .extra_logo {
+        @include display;
+        gap: 20px;
+        flex-direction: row-reverse !important;
+        margin-top: 10px;
+        width: 100%;
+        img {
+          margin-left: auto;
+        }
+
+        .local {
+          h5 {
+            color: $color3;
+            @include font(14px, 600);
+            margin: 0;
+          }
+          p {
+            color: $color8;
+            @include font(12px, 400);
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

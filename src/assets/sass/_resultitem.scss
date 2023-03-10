@@ -1,0 +1,45 @@
+a {
+  text-decoration: none;
+}
+
+.head-logo {
+  p {
+    color: $color8;
+    @include font(14px, 500);
+    margin: 0;
+  }
+}
+
+.extra-logo {
+  @include display;
+  gap: 20px;
+
+  .local {
+    h5 {
+      color: $color3;
+      @include font(14px, 600);
+      margin: 0;
+    }
+    p {
+      color: $color8;
+      @include font(12px, 400);
+      margin: 0;
+    }
+  }
+}
+
+.card-body {
+  h5,
+  p {
+    color: $color6;
+    @include font(18px, 600);
+  }
+  p {
+    @include font(14px, 400);
+  }
+  .tag_buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}

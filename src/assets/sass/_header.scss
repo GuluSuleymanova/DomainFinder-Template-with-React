@@ -1,0 +1,52 @@
+header {
+  // background-color: rgba(82, 171, 132, 1);
+  margin-bottom: 100px;
+  .logo {
+    @include font(24px, 700);
+    transition: all 1s ease;
+
+    a {
+      color: $color1 !important;
+      text-decoration: none;
+    }
+  }
+
+  .nav-menu {
+    @include display;
+    gap: 50px;
+    margin: auto;
+    color: $color1;
+    @include font(14px, 500);
+  }
+
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    color: $color6;
+    @include font(18px, 600);
+    gap: 20px;
+    margin-top: 25px;
+    list-style: none;
+  }
+
+  .nav-icon {
+    display: none;
+    font-size: 24px;
+  }
+}
+.other-header {
+  background-color: $background1;
+  padding-bottom: 50px;
+
+  .logo {
+    a {
+      color: white !important;
+    }
+  }
+
+  .nav-menu,
+  .mobile-menu,
+  .nav-icon {
+    color: white !important;
+  }
+}

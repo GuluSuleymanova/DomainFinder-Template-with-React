@@ -1,0 +1,32 @@
+footer {
+  border-top: 2px solid $color7;
+  padding: 20px 0;
+  .container {
+    @include display;
+    gap: 20px;
+  }
+
+  .icon-set {
+    display: flex;
+    gap: 25px;
+  }
+
+  .nav-list {
+    display: flex;
+
+    ul {
+      @include display;
+      gap: 30px;
+      margin: auto;
+      @include font(12px, 400);
+      color: $color5;
+    }
+  }
+
+  .dropdown {
+    @include display;
+    @include font(12px, 400);
+    color: $color5;
+    gap: 10px;
+  }
+}

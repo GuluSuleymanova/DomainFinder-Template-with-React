@@ -1,0 +1,11 @@
+@mixin display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin font($font, $weight) {
+  font-size: $font;
+  font-weight: $weight;
+  font-family: "Inter";
+}

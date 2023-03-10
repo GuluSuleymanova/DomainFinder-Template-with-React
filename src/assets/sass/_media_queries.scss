@@ -1,0 +1,164 @@
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+}
+//****************
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+// ****************
+
+@media only screen and (min-width: 768px) and (max-width: 1199.98px) {
+}
+
+// ****************
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+}
+
+// ****************
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media only screen and (max-width: 1199.98px) {
+}
+
+// ****************
+@media only screen and (max-width: 991.98px) {
+  //     About Section 1///////
+
+  .about-sec1 {
+    transform: translateY(-20%);
+  }
+
+  // SomeSection /////
+
+  .some-section {
+    .number-arrow {
+      flex-direction: column;
+      align-items: start;
+      .one {
+        flex-direction: column;
+        align-items: start;
+        p {
+          margin: 0;
+        }
+        i {
+          width: 36px;
+          height: 36px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 10px;
+          color: $color4;
+          font-size: 14px;
+          transform: rotate(90deg);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  //Header partt
+  header {
+    .container {
+      display: flex !important;
+      // flex-direction: column !important;
+      align-items: start !important;
+      transition: all 1s ease;
+    }
+    .nav-menu {
+      display: none;
+    }
+
+    .mobile-menu {
+      width: 100%;
+      transition: all 1s ease;
+      &.active {
+        display: flex;
+        width: 100%;
+        transition: all 1s ease;
+      }
+    }
+
+    .nav-icon {
+      display: block;
+      transition: all 1s ease;
+      &.active {
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+        transition: all 1s ease;
+
+        // transition: cubic-bezier(0.075, 0.82, 0.165, 1)
+      }
+    }
+  }
+  //Footer partt
+
+  footer {
+    .container {
+      flex-direction: column;
+    }
+    .nav-list {
+      margin: auto !important;
+
+      ul {
+        flex-direction: column;
+        padding: 0;
+      }
+    }
+  }
+
+  //  Home Taggsss
+
+  .tag-group {
+    flex-direction: column;
+
+    .btn-groups {
+      flex-wrap: wrap;
+      gap: 20px;
+
+      button {
+        padding: 10px 15px;
+        @include display;
+      }
+    }
+  }
+
+  //     About Section 1///////
+
+  .about-sec1 {
+    transform: translateY(-16%);
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+}
+
+// ****************
+
+@media only screen and (max-width: 487.98px) {
+  .ant-card-head-wrapper {
+    // flex-direction: column !important;
+    // align-items: start !important;
+    display: block !important;
+
+    .ant-card-extra {
+      margin: 0;
+
+      .extra-logo {
+        flex-direction: row-reverse !important;
+        margin-top: 10px;
+        width: 100%;
+        img {
+          margin-left: auto;
+        }
+      }
+    }
+  }
+} ;

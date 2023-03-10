@@ -1,0 +1,15 @@
+.tag-group {
+  @include display;
+  gap: 10px;
+  margin-bottom: 110px;
+
+  p {
+    @include font(14px, 500);
+    color: $color1;
+    margin: auto 0;
+  }
+  .btn-groups {
+    @include display;
+    gap: 15px;
+  }
+}

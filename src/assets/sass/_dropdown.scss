@@ -1,0 +1,13 @@
+.dropdown-ant {
+  .ant-select:hover {
+    border-color: $color3 !important;
+  }
+
+  .ant-select-selector {
+    color: $color5 !important ;
+    font-family: "Inter" !important;
+  }
+  .ant-select-selection-item {
+    @include font(14px, 700 !important);
+  }
+}
